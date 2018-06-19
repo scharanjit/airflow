@@ -1,4 +1,8 @@
 .idea/
 /logs/
-/plugins/
 /venv/
+airflow-webserver.log
+airflow-webserver.err
+airflow-webserver.out
+airflow-webserver.pid
+.idea/workspace.xml
