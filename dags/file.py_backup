@@ -1,0 +1,59 @@
+from airflow import DAG
+from airflow.models import Variable
+from airflow.operators import PythonOperator, TriggerDagRunOperator
+from airflow.operators.omega_plugin import OmegaFileSensor, ArchiveFileOperator
+from datetime import datetime, timedelta
+
+default_args = {
+    'owner': 'glsam',
+    'depends_on_past': False,
+    'start_date': datetime(2017, 6, 26),
+    'provide_context': True,
+    'retries': 100,
+    'retry_delay': timedelta(seconds=30)
+}
+
+task_name = 'my_first_file_sensor_task'
+filepath = Variable.get("soucePath")
+filepattern = Variable.get("filePattern")
+archivepath = Variable.get("archivePath")
+
+dag = DAG(
+    'task_name',
+    default_args=default_args,
+    schedule_interval=None,
+    catchup=False,
+    max_active_runs=1,
+    concurrency=1)
+
+sensor_task = OmegaFileSensor(
+    task_id=task_name,
+    filepath=filepath,
+    filepattern=filepattern,
+    poke_interval=3,
+    dag=dag)
+
+
+def process_file(**context):
+    file_to_process = context['task_instance'].xcom_pull(
+        key='file_name', task_ids=task_name)
+    file = open(filepath + file_to_process, 'w')
+    file.write('This is a test\n')
+    file.write('of processing the file')
+    file.close()
+
+
+proccess_task = PythonOperator(
+    task_id='process_the_file', python_callable=process_file, dag=dag)
+
+archive_task = ArchiveFileOperator(
+    task_id='archive_file',
+    filepath=filepath,
+    task_name=task_name,
+    archivepath=archivepath,
+    dag=dag)
+
+trigger = TriggerDagRunOperator(
+    task_id='trigger_dag_rerun', trigger_dag_id=task_name, dag=dag)
+
+sensor_task >> proccess_task >> archive_task >> trigger

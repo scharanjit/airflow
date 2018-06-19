@@ -1,0 +1,140 @@
+[2018-06-19 13:46:01,702] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 13:46:01,907] {models.py:1197} INFO - Dependencies all met for <TaskInstance: fileTask.task_1 2018-06-18 08:15:00 [queued]>
+[2018-06-19 13:46:01,924] {models.py:1197} INFO - Dependencies all met for <TaskInstance: fileTask.task_1 2018-06-18 08:15:00 [queued]>
+[2018-06-19 13:46:01,924] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 13:46:01,969] {models.py:1428} INFO - Executing <Task(BashOperator): task_1> on 2018-06-18 08:15:00
+[2018-06-19 13:46:01,970] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run fileTask task_1 2018-06-18T08:15:00 --job_id 4 --raw -sd DAGS_FOLDER/fileTask.py']
+[2018-06-19 13:46:02,201] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 13:46:02,202] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 13:46:02,234] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,233] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 13:46:02,253] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,253] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 13:46:02,358] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,358] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 13:46:02,397] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,397] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/fileTask.py
+[2018-06-19 13:46:02,503] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,503] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 13:46:02,503] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 13:46:02,504] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,504] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmphM2fw_//tmp/airflowtmphM2fw_/task_1hhbCOF
+[2018-06-19 13:46:02,504] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,504] {bash_operator.py:88} INFO - Running command: aws s3 cp Test_File_2018_06_19.txt /home/charanjiths/airflow/ 
+[2018-06-19 13:46:02,507] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,507] {bash_operator.py:97} INFO - Output:
+[2018-06-19 13:46:02,509] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,509] {bash_operator.py:101} INFO - /tmp/airflowtmphM2fw_/task_1hhbCOF: line 1: aws: command not found
+[2018-06-19 13:46:02,511] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:46:02,510] {bash_operator.py:105} INFO - Command exited with return code 127
+[2018-06-19 13:46:02,656] {base_task_runner.py:98} INFO - Subtask: Traceback (most recent call last):
+[2018-06-19 13:46:02,658] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/bin/airflow", line 27, in <module>
+[2018-06-19 13:46:02,659] {base_task_runner.py:98} INFO - Subtask:     args.func(args)
+[2018-06-19 13:46:02,660] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/bin/cli.py", line 392, in run
+[2018-06-19 13:46:02,661] {base_task_runner.py:98} INFO - Subtask:     pool=args.pool,
+[2018-06-19 13:46:02,663] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/db.py", line 50, in wrapper
+[2018-06-19 13:46:02,664] {base_task_runner.py:98} INFO - Subtask:     result = func(*args, **kwargs)
+[2018-06-19 13:46:02,665] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/models.py", line 1493, in _run_raw_task
+[2018-06-19 13:46:02,666] {base_task_runner.py:98} INFO - Subtask:     result = task_copy.execute(context=context)
+[2018-06-19 13:46:02,667] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/bash_operator.py", line 109, in execute
+[2018-06-19 13:46:02,668] {base_task_runner.py:98} INFO - Subtask:     raise AirflowException("Bash command failed")
+[2018-06-19 13:46:02,670] {base_task_runner.py:98} INFO - Subtask: airflow.exceptions.AirflowException: Bash command failed
+[2018-06-19 13:55:47,693] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 13:55:47,845] {models.py:1197} INFO - Dependencies all met for <TaskInstance: fileTask.task_1 2018-06-18 08:15:00 [queued]>
+[2018-06-19 13:55:47,856] {models.py:1197} INFO - Dependencies all met for <TaskInstance: fileTask.task_1 2018-06-18 08:15:00 [queued]>
+[2018-06-19 13:55:47,856] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 13:55:47,900] {models.py:1428} INFO - Executing <Task(BashOperator): task_1> on 2018-06-18 08:15:00
+[2018-06-19 13:55:47,900] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run fileTask task_1 2018-06-18T08:15:00 --job_id 3 --raw -sd DAGS_FOLDER/fileTask.py']
+[2018-06-19 13:55:48,170] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 13:55:48,170] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 13:55:48,209] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,209] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 13:55:48,232] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,232] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 13:55:48,365] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,365] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 13:55:48,412] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,412] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/fileTask.py
+[2018-06-19 13:55:48,533] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,533] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 13:55:48,534] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 13:55:48,535] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,534] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmpsoAXKu//tmp/airflowtmpsoAXKu/task_1gbFHNV
+[2018-06-19 13:55:48,535] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,534] {bash_operator.py:88} INFO - Running command:  cp Test_File_2018_06_19.txt /home/charanjiths/airflow/ 
+[2018-06-19 13:55:48,538] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,538] {bash_operator.py:97} INFO - Output:
+[2018-06-19 13:55:48,543] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,542] {bash_operator.py:101} INFO - cp: cannot stat 'Test_File_2018_06_19.txt': No such file or directory
+[2018-06-19 13:55:48,545] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 13:55:48,544] {bash_operator.py:105} INFO - Command exited with return code 1
+[2018-06-19 13:55:48,698] {base_task_runner.py:98} INFO - Subtask: Traceback (most recent call last):
+[2018-06-19 13:55:48,699] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/bin/airflow", line 27, in <module>
+[2018-06-19 13:55:48,700] {base_task_runner.py:98} INFO - Subtask:     args.func(args)
+[2018-06-19 13:55:48,701] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/bin/cli.py", line 392, in run
+[2018-06-19 13:55:48,702] {base_task_runner.py:98} INFO - Subtask:     pool=args.pool,
+[2018-06-19 13:55:48,703] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/db.py", line 50, in wrapper
+[2018-06-19 13:55:48,703] {base_task_runner.py:98} INFO - Subtask:     result = func(*args, **kwargs)
+[2018-06-19 13:55:48,705] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/models.py", line 1493, in _run_raw_task
+[2018-06-19 13:55:48,706] {base_task_runner.py:98} INFO - Subtask:     result = task_copy.execute(context=context)
+[2018-06-19 13:55:48,708] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/bash_operator.py", line 109, in execute
+[2018-06-19 13:55:48,708] {base_task_runner.py:98} INFO - Subtask:     raise AirflowException("Bash command failed")
+[2018-06-19 13:55:48,709] {base_task_runner.py:98} INFO - Subtask: airflow.exceptions.AirflowException: Bash command failed
+[2018-06-19 14:00:46,589] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 14:00:46,773] {models.py:1197} INFO - Dependencies all met for <TaskInstance: fileTask.task_1 2018-06-18 08:15:00 [queued]>
+[2018-06-19 14:00:46,785] {models.py:1197} INFO - Dependencies all met for <TaskInstance: fileTask.task_1 2018-06-18 08:15:00 [queued]>
+[2018-06-19 14:00:46,786] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 14:00:46,819] {models.py:1428} INFO - Executing <Task(BashOperator): task_1> on 2018-06-18 08:15:00
+[2018-06-19 14:00:46,819] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run fileTask task_1 2018-06-18T08:15:00 --job_id 3 --raw -sd DAGS_FOLDER/fileTask.py']
+[2018-06-19 14:00:47,031] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 14:00:47,032] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 14:00:47,064] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,064] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 14:00:47,084] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,083] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 14:00:47,191] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,191] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 14:00:47,230] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,230] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/fileTask.py
+[2018-06-19 14:00:47,336] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,336] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 14:00:47,336] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 14:00:47,337] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,337] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmpMPsOqE//tmp/airflowtmpMPsOqE/task_1ffZoxt
+[2018-06-19 14:00:47,338] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,337] {bash_operator.py:88} INFO - Running command:  cp Test_File_2018_06_19.txt /home/charanjiths/airflow/ 
+[2018-06-19 14:00:47,340] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,340] {bash_operator.py:97} INFO - Output:
+[2018-06-19 14:00:47,343] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,343] {bash_operator.py:101} INFO - cp: cannot stat 'Test_File_2018_06_19.txt': No such file or directory
+[2018-06-19 14:00:47,345] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:00:47,345] {bash_operator.py:105} INFO - Command exited with return code 1
+[2018-06-19 14:00:47,496] {base_task_runner.py:98} INFO - Subtask: Traceback (most recent call last):
+[2018-06-19 14:00:47,498] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/bin/airflow", line 27, in <module>
+[2018-06-19 14:00:47,499] {base_task_runner.py:98} INFO - Subtask:     args.func(args)
+[2018-06-19 14:00:47,501] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/bin/cli.py", line 392, in run
+[2018-06-19 14:00:47,501] {base_task_runner.py:98} INFO - Subtask:     pool=args.pool,
+[2018-06-19 14:00:47,503] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/db.py", line 50, in wrapper
+[2018-06-19 14:00:47,504] {base_task_runner.py:98} INFO - Subtask:     result = func(*args, **kwargs)
+[2018-06-19 14:00:47,505] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/models.py", line 1493, in _run_raw_task
+[2018-06-19 14:00:47,506] {base_task_runner.py:98} INFO - Subtask:     result = task_copy.execute(context=context)
+[2018-06-19 14:00:47,507] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/bash_operator.py", line 109, in execute
+[2018-06-19 14:00:47,508] {base_task_runner.py:98} INFO - Subtask:     raise AirflowException("Bash command failed")
+[2018-06-19 14:00:47,509] {base_task_runner.py:98} INFO - Subtask: airflow.exceptions.AirflowException: Bash command failed
+[2018-06-19 15:52:10,351] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 15:52:10,396] {models.py:1197} INFO - Dependencies all met for <TaskInstance: fileTask.task_1 2018-06-18 08:15:00 [queued]>
+[2018-06-19 15:52:10,404] {models.py:1197} INFO - Dependencies all met for <TaskInstance: fileTask.task_1 2018-06-18 08:15:00 [queued]>
+[2018-06-19 15:52:10,405] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 15:52:10,459] {models.py:1428} INFO - Executing <Task(BashOperator): task_1> on 2018-06-18 08:15:00
+[2018-06-19 15:52:10,459] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run fileTask task_1 2018-06-18T08:15:00 --job_id 6 --raw -sd DAGS_FOLDER/fileTask.py']
+[2018-06-19 15:52:10,701] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 15:52:10,701] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 15:52:10,734] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:10,733] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 15:52:10,753] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:10,753] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 15:52:10,865] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:10,865] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 15:52:10,902] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:10,902] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/fileTask.py
+[2018-06-19 15:52:11,012] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:11,012] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 15:52:11,013] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 15:52:11,013] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:11,013] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmppN1P7E//tmp/airflowtmppN1P7E/task_1rqA38L
+[2018-06-19 15:52:11,013] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:11,013] {bash_operator.py:88} INFO - Running command:  cp Test_File_2018_06_19.txt /home/charanjiths/airflow/ 
+[2018-06-19 15:52:11,016] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:11,016] {bash_operator.py:97} INFO - Output:
+[2018-06-19 15:52:11,019] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:11,019] {bash_operator.py:101} INFO - cp: cannot stat 'Test_File_2018_06_19.txt': No such file or directory
+[2018-06-19 15:52:11,021] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:52:11,020] {bash_operator.py:105} INFO - Command exited with return code 1
+[2018-06-19 15:52:11,078] {base_task_runner.py:98} INFO - Subtask: Traceback (most recent call last):
+[2018-06-19 15:52:11,079] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/bin/airflow", line 27, in <module>
+[2018-06-19 15:52:11,079] {base_task_runner.py:98} INFO - Subtask:     args.func(args)
+[2018-06-19 15:52:11,079] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/bin/cli.py", line 392, in run
+[2018-06-19 15:52:11,079] {base_task_runner.py:98} INFO - Subtask:     pool=args.pool,
+[2018-06-19 15:52:11,080] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/db.py", line 50, in wrapper
+[2018-06-19 15:52:11,080] {base_task_runner.py:98} INFO - Subtask:     result = func(*args, **kwargs)
+[2018-06-19 15:52:11,080] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/models.py", line 1493, in _run_raw_task
+[2018-06-19 15:52:11,080] {base_task_runner.py:98} INFO - Subtask:     result = task_copy.execute(context=context)
+[2018-06-19 15:52:11,080] {base_task_runner.py:98} INFO - Subtask:   File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/bash_operator.py", line 109, in execute
+[2018-06-19 15:52:11,081] {base_task_runner.py:98} INFO - Subtask:     raise AirflowException("Bash command failed")
+[2018-06-19 15:52:11,081] {base_task_runner.py:98} INFO - Subtask: airflow.exceptions.AirflowException: Bash command failed

@@ -1,0 +1,44 @@
+[2018-06-19 14:19:47,887] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 14:19:48,040] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.sleep 2017-06-01 04:00:00 [queued]>
+[2018-06-19 14:19:48,102] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.sleep 2017-06-01 04:00:00 [queued]>
+[2018-06-19 14:19:48,102] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 14:19:48,138] {models.py:1428} INFO - Executing <Task(BashOperator): sleep> on 2017-06-01 04:00:00
+[2018-06-19 14:19:48,140] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run hello_world sleep 2017-06-01T04:00:00 --job_id 15 --raw -sd DAGS_FOLDER/helloWorld.py']
+[2018-06-19 14:19:48,376] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 14:19:48,376] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 14:19:48,410] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:48,410] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 14:19:48,430] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:48,430] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 14:19:48,536] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:48,535] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 14:19:48,586] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:48,582] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/helloWorld.py
+[2018-06-19 14:19:48,754] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:48,753] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 14:19:48,754] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 14:19:48,756] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:48,755] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmpW0DS3E//tmp/airflowtmpW0DS3E/sleepsfxOrU
+[2018-06-19 14:19:48,756] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:48,756] {bash_operator.py:88} INFO - Running command: sleep 5
+[2018-06-19 14:19:48,761] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:48,761] {bash_operator.py:97} INFO - Output:
+[2018-06-19 14:19:53,768] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:19:53,768] {bash_operator.py:105} INFO - Command exited with return code 0
+[2018-06-19 15:53:36,673] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 15:53:36,718] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.sleep 2017-06-01 04:00:00 [queued]>
+[2018-06-19 15:53:36,755] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.sleep 2017-06-01 04:00:00 [queued]>
+[2018-06-19 15:53:36,755] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 15:53:36,767] {models.py:1428} INFO - Executing <Task(BashOperator): sleep> on 2017-06-01 04:00:00
+[2018-06-19 15:53:36,767] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run hello_world sleep 2017-06-01T04:00:00 --job_id 17 --raw -sd DAGS_FOLDER/helloWorld.py']
+[2018-06-19 15:53:36,979] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 15:53:36,980] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 15:53:37,010] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:37,010] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 15:53:37,029] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:37,029] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 15:53:37,132] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:37,132] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 15:53:37,169] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:37,169] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/helloWorld.py
+[2018-06-19 15:53:37,275] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:37,275] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 15:53:37,275] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 15:53:37,276] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:37,276] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmpe3O3QP//tmp/airflowtmpe3O3QP/sleepENgXmT
+[2018-06-19 15:53:37,276] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:37,276] {bash_operator.py:88} INFO - Running command: sleep 5
+[2018-06-19 15:53:37,279] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:37,278] {bash_operator.py:97} INFO - Output:
+[2018-06-19 15:53:42,291] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:53:42,288] {bash_operator.py:105} INFO - Command exited with return code 0

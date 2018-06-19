@@ -1,0 +1,34 @@
+[2018-06-19 14:21:13,789] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 14:21:13,990] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_world 2017-06-01 06:00:00 [queued]>
+[2018-06-19 14:21:14,024] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_world 2017-06-01 06:00:00 [queued]>
+[2018-06-19 14:21:14,024] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 14:21:14,037] {models.py:1428} INFO - Executing <Task(PythonOperator): print_world> on 2017-06-01 06:00:00
+[2018-06-19 14:21:14,037] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run hello_world print_world 2017-06-01T06:00:00 --job_id 25 --raw -sd DAGS_FOLDER/helloWorld.py']
+[2018-06-19 14:21:14,252] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 14:21:14,253] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 14:21:14,285] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:21:14,284] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 14:21:14,304] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:21:14,304] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 14:21:14,409] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:21:14,409] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 14:21:14,447] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:21:14,447] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/helloWorld.py
+[2018-06-19 14:21:14,550] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:21:14,550] {python_operator.py:90} INFO - Done. Returned value was: None
+[2018-06-19 15:54:59,615] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 15:54:59,662] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_world 2017-06-01 06:00:00 [queued]>
+[2018-06-19 15:54:59,698] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_world 2017-06-01 06:00:00 [queued]>
+[2018-06-19 15:54:59,698] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 15:54:59,711] {models.py:1428} INFO - Executing <Task(PythonOperator): print_world> on 2017-06-01 06:00:00
+[2018-06-19 15:54:59,711] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run hello_world print_world 2017-06-01T06:00:00 --job_id 27 --raw -sd DAGS_FOLDER/helloWorld.py']
+[2018-06-19 15:54:59,922] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 15:54:59,922] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 15:54:59,953] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:54:59,953] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 15:54:59,974] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:54:59,973] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 15:55:00,078] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:00,078] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 15:55:00,116] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:00,115] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/helloWorld.py
+[2018-06-19 15:55:00,217] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:00,216] {python_operator.py:90} INFO - Done. Returned value was: None

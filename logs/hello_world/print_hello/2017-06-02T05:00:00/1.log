@@ -1,0 +1,23 @@
+[2018-06-19 16:03:09,526] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 16:03:09,571] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_hello 2017-06-02 05:00:00 [queued]>
+[2018-06-19 16:03:09,578] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_hello 2017-06-02 05:00:00 [queued]>
+[2018-06-19 16:03:09,578] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 16:03:09,612] {models.py:1428} INFO - Executing <Task(BashOperator): print_hello> on 2017-06-02 05:00:00
+[2018-06-19 16:03:09,612] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run hello_world print_hello 2017-06-02T05:00:00 --job_id 88 --raw -sd DAGS_FOLDER/helloWorld.py']
+[2018-06-19 16:03:09,822] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 16:03:09,823] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 16:03:09,853] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:09,853] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 16:03:09,872] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:09,872] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 16:03:09,977] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:09,976] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 16:03:10,014] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:10,013] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/helloWorld.py
+[2018-06-19 16:03:10,120] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:10,120] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 16:03:10,120] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 16:03:10,121] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:10,121] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmpnJojjW//tmp/airflowtmpnJojjW/print_helloqvOKsJ
+[2018-06-19 16:03:10,121] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:10,121] {bash_operator.py:88} INFO - Running command: echo "hello"
+[2018-06-19 16:03:10,124] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:10,124] {bash_operator.py:97} INFO - Output:
+[2018-06-19 16:03:10,126] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:10,126] {bash_operator.py:101} INFO - hello
+[2018-06-19 16:03:10,127] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 16:03:10,127] {bash_operator.py:105} INFO - Command exited with return code 0

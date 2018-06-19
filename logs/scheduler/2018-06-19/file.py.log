@@ -1,0 +1,184 @@
+[2018-06-19 15:45:38,479] {jobs.py:368} INFO - Started process (PID=3037) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:38,494] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:45:38,607] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:38,700] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:39,369] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:39,458] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.978 seconds
+[2018-06-19 15:45:41,480] {jobs.py:368} INFO - Started process (PID=3052) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:41,491] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:45:41,497] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:41,499] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:41,534] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:41,569] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.089 seconds
+[2018-06-19 15:45:45,779] {jobs.py:368} INFO - Started process (PID=3069) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:45,784] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:45:45,786] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:45,787] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:45,813] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:46,007] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.228 seconds
+[2018-06-19 15:45:48,841] {jobs.py:368} INFO - Started process (PID=3084) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:48,845] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:45:48,849] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:48,850] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:48,876] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:48,962] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.120 seconds
+[2018-06-19 15:45:51,987] {jobs.py:368} INFO - Started process (PID=3109) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:51,991] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:45:51,996] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:51,998] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:52,028] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:52,150] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.162 seconds
+[2018-06-19 15:45:55,109] {jobs.py:368} INFO - Started process (PID=3125) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:55,112] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:45:55,115] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:55,115] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:55,139] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:55,291] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.182 seconds
+[2018-06-19 15:45:58,484] {jobs.py:368} INFO - Started process (PID=3140) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:58,486] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:45:58,489] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:58,489] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:45:58,526] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:45:58,713] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.233 seconds
+[2018-06-19 15:46:01,616] {jobs.py:368} INFO - Started process (PID=3155) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:46:01,618] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:46:01,620] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:46:01,620] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:46:01,644] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:46:01,733] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.117 seconds
+[2018-06-19 15:46:13,179] {jobs.py:368} INFO - Started process (PID=3181) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:46:13,183] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:46:13,187] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:46:13,188] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:46:13,212] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:46:13,303] {jobs.py:375} INFO - Processing /home/charanjiths/airflow/dags/file.py took 0.125 seconds
+[2018-06-19 15:46:14,199] {jobs.py:368} INFO - Started process (PID=3185) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:46:14,203] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:46:14,207] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:46:14,208] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:46:15,380] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:46:15,387] {jobs.py:379} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/jobs.py", line 371, in helper
+    pickle_dags)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/db.py", line 50, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/jobs.py", line 1757, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/jobs.py", line 744, in update_import_errors
+    models.ImportError.filename == dagbag_file
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 3293, in delete
+    delete_op.exec_()
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 1326, in exec_
+    self._do_exec()
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 1518, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 1333, in _execute_stmt
+    mapper=self.mapper)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1176, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 508, in do_execute
+    cursor.execute(statement, parameters)
+InternalError: (psycopg2.InternalError) current transaction is aborted, commands ignored until end of transaction block
+ [SQL: 'DELETE FROM import_error WHERE import_error.filename = %(filename_1)s'] [parameters: {'filename_1': u'/home/charanjiths/airflow/dags/file.py'}] (Background on this error at: http://sqlalche.me/e/2j85)
+[2018-06-19 15:46:19,381] {jobs.py:368} INFO - Started process (PID=3198) to work on /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:46:19,384] {jobs.py:1742} INFO - Processing file /home/charanjiths/airflow/dags/file.py for tasks to queue
+[2018-06-19 15:46:19,387] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing PythonOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:46:19,388] {logging_mixin.py:84} WARNING - /home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/helpers.py:351: DeprecationWarning: Importing TriggerDagRunOperator directly from <module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'> has been deprecated. Please import from '<module 'airflow.operators' from '/home/charanjiths/.local/lib/python2.7/site-packages/airflow/operators/__init__.pyc'>.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+
+[2018-06-19 15:46:19,413] {jobs.py:1756} WARNING - No viable dags retrieved from /home/charanjiths/airflow/dags/file.py
+[2018-06-19 15:46:19,414] {jobs.py:379} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/jobs.py", line 371, in helper
+    pickle_dags)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/utils/db.py", line 50, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/jobs.py", line 1757, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/airflow/jobs.py", line 744, in update_import_errors
+    models.ImportError.filename == dagbag_file
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 3293, in delete
+    delete_op.exec_()
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 1326, in exec_
+    self._do_exec()
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 1518, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py", line 1333, in _execute_stmt
+    mapper=self.mapper)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1176, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/charanjiths/.local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 508, in do_execute
+    cursor.execute(statement, parameters)
+InternalError: (psycopg2.InternalError) current transaction is aborted, commands ignored until end of transaction block
+ [SQL: 'DELETE FROM import_error WHERE import_error.filename = %(filename_1)s'] [parameters: {'filename_1': u'/home/charanjiths/airflow/dags/file.py'}] (Background on this error at: http://sqlalche.me/e/2j85)

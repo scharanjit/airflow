@@ -1,0 +1,46 @@
+[2018-06-19 14:22:11,446] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 14:22:11,590] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_hello 2017-06-01 11:00:00 [queued]>
+[2018-06-19 14:22:11,601] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_hello 2017-06-01 11:00:00 [queued]>
+[2018-06-19 14:22:11,601] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 14:22:11,634] {models.py:1428} INFO - Executing <Task(BashOperator): print_hello> on 2017-06-01 11:00:00
+[2018-06-19 14:22:11,634] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run hello_world print_hello 2017-06-01T11:00:00 --job_id 32 --raw -sd DAGS_FOLDER/helloWorld.py']
+[2018-06-19 14:22:11,904] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 14:22:11,904] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 14:22:11,945] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:11,944] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 14:22:11,970] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:11,970] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 14:22:12,091] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:12,091] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 14:22:12,130] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:12,130] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/helloWorld.py
+[2018-06-19 14:22:12,249] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:12,249] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 14:22:12,250] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 14:22:12,251] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:12,251] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmplfwEoO//tmp/airflowtmplfwEoO/print_helloYbTNqH
+[2018-06-19 14:22:12,251] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:12,251] {bash_operator.py:88} INFO - Running command: echo "hello"
+[2018-06-19 14:22:12,255] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:12,255] {bash_operator.py:97} INFO - Output:
+[2018-06-19 14:22:12,257] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:12,256] {bash_operator.py:101} INFO - hello
+[2018-06-19 14:22:12,258] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 14:22:12,258] {bash_operator.py:105} INFO - Command exited with return code 0
+[2018-06-19 15:55:55,532] {cli.py:374} INFO - Running on host PRINHYLTPDL1167
+[2018-06-19 15:55:55,582] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_hello 2017-06-01 11:00:00 [queued]>
+[2018-06-19 15:55:55,589] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.print_hello 2017-06-01 11:00:00 [queued]>
+[2018-06-19 15:55:55,589] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-06-19 15:55:55,622] {models.py:1428} INFO - Executing <Task(BashOperator): print_hello> on 2017-06-01 11:00:00
+[2018-06-19 15:55:55,623] {base_task_runner.py:115} INFO - Running: ['bash', '-c', u'airflow run hello_world print_hello 2017-06-01T11:00:00 --job_id 34 --raw -sd DAGS_FOLDER/helloWorld.py']
+[2018-06-19 15:55:55,833] {base_task_runner.py:98} INFO - Subtask: /usr/local/lib/python2.7/dist-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+[2018-06-19 15:55:55,834] {base_task_runner.py:98} INFO - Subtask:   """)
+[2018-06-19 15:55:55,864] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:55,863] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/Grammar.txt
+[2018-06-19 15:55:55,883] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:55,883] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python2.7/lib2to3/PatternGrammar.txt
+[2018-06-19 15:55:55,988] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:55,988] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-06-19 15:55:56,026] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:56,025] {models.py:189} INFO - Filling up the DagBag from /home/charanjiths/airflow/dags/helloWorld.py
+[2018-06-19 15:55:56,131] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:56,131] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-06-19 15:55:56,131] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-06-19 15:55:56,132] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:56,132] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmpWOr6x9//tmp/airflowtmpWOr6x9/print_helloDI8B1T
+[2018-06-19 15:55:56,132] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:56,132] {bash_operator.py:88} INFO - Running command: echo "hello"
+[2018-06-19 15:55:56,135] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:56,135] {bash_operator.py:97} INFO - Output:
+[2018-06-19 15:55:56,137] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:56,137] {bash_operator.py:101} INFO - hello
+[2018-06-19 15:55:56,138] {base_task_runner.py:98} INFO - Subtask: [2018-06-19 15:55:56,137] {bash_operator.py:105} INFO - Command exited with return code 0
